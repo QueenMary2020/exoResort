@@ -1,6 +1,6 @@
 import React from 'react';
-import RoomFilter from './RoomFilter'
-import RoomList from'./RoomList'
+import RoomsFilter from './RoomFilter'
+import RoomsList from'./RoomList'
 import { withRoomConsumer} from '../context'
 import Loading from './Loading'
 
@@ -16,8 +16,8 @@ if (loading) {
   return (
        <div>
       
-          <RoomFilter rooms= {rooms}/>
-            <RoomList rooms= {sortedRooms}/>
+          <RoomsFilter rooms= {rooms}/>
+            <RoomsList rooms= {sortedRooms}/>
         </div>
   );
 

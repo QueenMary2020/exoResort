@@ -2,7 +2,7 @@ import React from "react";
 import Room from "./Room";
 
 
-export default function RoomList({rooms}){
+export default function RoomsList({rooms}){
 
   if (rooms.length === 0) {
     return (
